@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+}
+
+.basic {
+    border-left: 5px solid lightblue;
+}
+
+.pro {
+    border-left: 5px solid lightgreen;
+}
+
+.enterprise {
+    border-left: 5px solid lightcoral;
+}
+
+h3 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
